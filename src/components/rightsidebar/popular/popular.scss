@@ -1,6 +1,11 @@
 @import "../../../global.scss";
 
 .popular{
+    font-size: .7rem;
+
+    h1{
+        margin-bottom: 1rem;
+    }
     .btn{
         @include rsbtn
     }

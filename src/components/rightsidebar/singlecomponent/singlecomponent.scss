@@ -1,15 +1,24 @@
 .singlecomponent{
     display: flex;
     flex-direction: row;
+    gap:.8rem;
+
+    .left{
+        img{
+            height: 10rem;
+            width: 6rem;
+        }
+    }
 
     .right{
         display: flex;
         flex-direction: column;
-        gap:.5rem;
+        gap:4.5rem;
 
         .top{
             h1{
                 font-size: 1rem;
+                margin-bottom: .5rem;
             }
             h2{
                 font-size: .8rem;

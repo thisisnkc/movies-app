@@ -7,13 +7,14 @@ $bcolor : rgb(41, 33, 33) ;
 }
 
 @mixin gapbw{
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     display: flex;
     flex-direction: row;
     gap:.7rem;
 }
 
 @mixin  rsbtn {
+    margin-top: 1rem;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif ;
     border: none;
@@ -21,7 +22,8 @@ $bcolor : rgb(41, 33, 33) ;
     color: white;
     border-radius: 1rem;
     background-color: rgb(207, 23, 23);
-    height: 3rem;
-    width: 15rem;
+    height: 2.5rem;
+    width: 13rem;
 }
+
 

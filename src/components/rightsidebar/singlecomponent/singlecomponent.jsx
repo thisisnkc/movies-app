@@ -5,7 +5,7 @@ function Singlecomponent() {
   return (
     <div className="singlecomponent">
       <div className="left">
-        <img src="" alt="movie" />
+        <img src="assets/johnwick.jpg" alt="movie" />
       </div>
       <div className="right">
         <div className="top">

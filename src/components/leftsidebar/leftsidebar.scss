@@ -3,23 +3,48 @@
 
 .leftsidebar{
     margin:0;
-    width: 15rem;
+    padding-right: 2rem;
     height: 100vh;
   border-bottom-left-radius:2rem ;
   display: flex;
   flex-direction: column;
-  gap:3.5rem;
-  border-right: .1px solid gray;
+  gap:2.5rem;
+  border-right: .02px solid gray;
    
 
   &>*{
-      margin-left: 3rem;
+      color: gray;
+      margin-left: 2rem;
       font-size: .99rem;
       font-family: 'Roboto', sans-serif;
+  }
+
+  &>:nth-child(1){
+      margin-left: 0;
   }
 
   h1{
       font-size: .9rem;
       text-transform: uppercase;
+  }
+
+  .left {
+    display: flex;
+    gap:-1rem;
+    img {
+      height: 4.5rem;
+      width: 4.5rem;
+      margin-left: .5rem;
+      margin-top:-.5rem;
+    }
+    
+    span{
+      letter-spacing: .1rem;
+        margin-top: 1.2rem;
+    font-size: 1.2rem;
+    margin-left: -.3rem;
+      color: rgb(217, 211, 211);
+      font-weight: bold;
+    }
   }
 }

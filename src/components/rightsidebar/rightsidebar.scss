@@ -1,6 +1,69 @@
-.rightsidebar{
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    margin-left: 82rem;
+@import "../../global.scss";
+
+.rightsidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-left: 0;
+
+  &>* {
+    font-family: $font;
+  }
+
+  @mixin optional-at-root($sel) {
+    @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+      @content;
+    }
+  }
+
+  @mixin placeholder {
+    @include optional-at-root('::-webkit-input-placeholder') {
+      @content;
+    }
+
+    @include optional-at-root(':-moz-placeholder') {
+      @content;
+    }
+
+    @include optional-at-root('::-moz-placeholder') {
+      @content;
+    }
+
+    @include optional-at-root(':-ms-input-placeholder') {
+      @content;
+    }
+  }
+
+  .right {
+
+    .icon {
+      position: absolute;
+      top: 2.3rem;
+      right: 13.3rem;
+      z-index: 2;
+      color: gray;
+    }
+
+    .btn {
+      margin-top: 1.5rem;
+      margin-left: 1rem;
+      position: relative;
+      background-color: $bcolor;
+      height: 2.7rem;
+      width: 10rem;
+      border: none;
+      outline: none;
+      border: .1rem solid gray;
+      border-radius: 1.5rem;
+      padding: 1rem;
+
+      @include placeholder {
+        font-weight: 1000;
+        padding-left: 1rem;
+        font-family: $font;
+        color: gray;
+      }
+
+    }
+  }
 }
