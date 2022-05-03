@@ -1,0 +1,12 @@
+@import "../../../global.scss";
+
+.general{
+    ul{
+        @include mrtop;
+        li{
+            @include gapbw;
+           
+            list-style: none;
+        }
+    }
+}

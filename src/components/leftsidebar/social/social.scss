@@ -1,0 +1,11 @@
+@import "../../../global.scss";
+
+.social{
+    ul{
+        @include mrtop;
+        li{
+            @include gapbw;
+            list-style: none;
+        }
+    }
+}

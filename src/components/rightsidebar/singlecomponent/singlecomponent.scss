@@ -1,0 +1,32 @@
+.singlecomponent{
+    display: flex;
+    flex-direction: row;
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        gap:.5rem;
+
+        .top{
+            h1{
+                font-size: 1rem;
+            }
+            h2{
+                font-size: .8rem;
+                margin-left: .2rem;
+            }
+        }
+        .down{
+            display: flex;
+
+            h2{
+                margin-top: .7rem;
+                margin-left: .5rem;
+            }
+            img{
+                height: 3rem;
+                width: 3rem;
+            }
+        }
+    }
+}

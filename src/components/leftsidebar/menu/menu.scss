@@ -1,0 +1,12 @@
+@import "../../../global.scss";
+
+.menu{
+    margin-top: 7.5rem;
+    ul{
+        @include mrtop;
+        li{
+            @include gapbw;
+            list-style: none;
+        }
+    }
+}

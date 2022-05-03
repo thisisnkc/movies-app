@@ -1,0 +1,27 @@
+$font :'Roboto', sans-serif;
+$bcolor : rgb(41, 33, 33) ;
+
+
+@mixin mrtop{
+    margin-top: .3rem;
+}
+
+@mixin gapbw{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap:.7rem;
+}
+
+@mixin  rsbtn {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif ;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 1rem;
+    background-color: rgb(207, 23, 23);
+    height: 3rem;
+    width: 15rem;
+}
+
