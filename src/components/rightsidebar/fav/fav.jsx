@@ -7,6 +7,8 @@ function Fav() {
     <div className='fav'>
         <h1>Favorites</h1>
         <Singlecomponent />
+        <Singlecomponent />
+        <Singlecomponent />
         <button className="btn">See More</button>
     </div>
   )

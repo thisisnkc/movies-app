@@ -2,26 +2,32 @@
     display: flex;
     flex-direction: row;
     gap:.8rem;
+    margin-bottom: .5rem;
+
 
     .left{
         img{
-            height: 10rem;
-            width: 6rem;
+            border-radius: .5rem;
+            height: 5rem;
+            width: 3rem;
         }
     }
 
     .right{
         display: flex;
         flex-direction: column;
-        gap:4.5rem;
+        gap:.8rem;
 
         .top{
             h1{
-                font-size: 1rem;
-                margin-bottom: .5rem;
+                margin-top: .5rem;
+                font-weight: 300;
+                color: beige;
+                font-size: .7rem;
+                margin-bottom: .2rem;
             }
             h2{
-                font-size: .8rem;
+                font-size: .7rem;
                 margin-left: .2rem;
             }
         }
@@ -29,12 +35,15 @@
             display: flex;
 
             h2{
-                margin-top: .7rem;
+                font-weight: 300;
+                color: beige;
+                font-size: .8rem;
+                margin-top: .4rem;
                 margin-left: .5rem;
             }
             img{
-                height: 3rem;
-                width: 3rem;
+                height: 1.8rem;
+                width: 1.8rem;
             }
         }
     }

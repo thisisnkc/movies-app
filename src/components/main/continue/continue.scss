@@ -1,0 +1,48 @@
+.continue{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    
+    .compone{
+        margin-left: 1.3rem;
+        height: 10rem;
+        width: 58rem;
+        display: flex;
+        flex-direction: row;
+        gap:1.5rem;
+    }
+    .heading{
+        display: flex;
+        flex-direction: row;
+        gap: 43rem;
+
+        h1{
+            color: beige;
+            min-width: 10rem;
+            display: inline;
+            font-size: 1.1rem;
+        }
+
+        .icons{
+            display: flex;
+            flex-direction: row;
+            gap:1rem;
+            
+            .icon1 , .icon2{
+                margin-top: -.5rem;
+                align-items: flex-end;
+                width: 2rem;
+                height: 2rem;
+                border-radius: 50%;
+                border: .13rem solid beige;
+                
+                .i{
+                    color: beige;
+                    margin-left: .35rem;
+                    margin-top: .35rem;
+                }
+                
+            }
+        }
+    }
+}

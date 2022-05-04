@@ -3,7 +3,7 @@
 .rightsidebar {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   margin-left: 0;
 
   &>* {
@@ -39,7 +39,7 @@
     .icon {
       position: absolute;
       top: 2.3rem;
-      right: 13.3rem;
+      right: 17.3rem;
       z-index: 2;
       color: gray;
     }

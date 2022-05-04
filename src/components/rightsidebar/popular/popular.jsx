@@ -7,6 +7,8 @@ function Popular() {
     <div className="popular">
       <h1>Popular Movies</h1>
       <Singlecomponent />
+      <Singlecomponent />
+      <Singlecomponent />
       <button className="btn">See More</button>
     </div>
   );

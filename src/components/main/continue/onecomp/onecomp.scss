@@ -1,0 +1,33 @@
+.onecomp{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    img{
+        border-radius: 1.5rem;
+        width: 18rem;
+        height: 12rem;
+    }
+
+    .title{
+        background-color: rgb(74, 67, 67);
+        position: absolute;
+        top: 37%;
+        width: 18rem;
+        height: 2rem;
+
+        .line{
+            height: .2rem;
+            background-color: rgb(192, 67, 67);
+            width: 7rem;
+        }
+        
+        h2{
+            margin-top: .2rem;
+            margin-left: 2.5rem;
+            font-size: 1rem;
+            color: beige;
+        }
+    }
+}

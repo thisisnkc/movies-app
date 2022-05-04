@@ -1,0 +1,60 @@
+.singlecomp {
+    margin-top: .5rem;
+    position: relative;
+    height: 15rem;
+    width: 10rem;
+
+    img {
+        height: 12rem;
+        width: 9rem;
+        border-radius: .5rem;
+    }
+
+    .info {
+        color: beige;
+        display: flex;
+        flex-direction: column;
+        gap:5rem;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+
+        .rating{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                font-size: 1rem;
+                color: beige;
+                font-weight: 300;
+            }
+            h3{
+                color:rgb(149, 159, 159);
+                font-size: .8rem;
+            }
+        }
+
+
+
+        .btnp {
+            margin-top:1rem;
+            margin-left: 6rem;
+            font-size: 2rem;
+            background-color: rgba(88, 87, 87, 0.5);
+            color: beige;
+            width: 2.5rem;
+            height: 2.5rem;
+            border: none;
+            border-radius: .5rem;
+
+        }
+
+        img {
+            height: .8rem;
+            width: 4rem;
+        }
+    }
+
+}
