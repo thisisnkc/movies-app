@@ -1,12 +1,51 @@
 @import "../../../global.scss";
 
-.menu{
+.menu {
     margin-top: -1rem;
-    ul{
+
+    ul {
         @include mrtop;
-        li{
+        display: flex;
+        flex-direction: column;
+
+        li {
             @include gapbw;
             list-style: none;
+            position: relative;
+
+            h2 {
+                font-size: inherit;
+            }
+
+            &>.first-child.active {
+                color: beige;
+            }
+
+            .icon {
+                &.active {
+                    color: red;
+                }
+            }
+
+            h2 {
+                width: 8rem;
+            }
         }
+    }
+}
+
+.redline {
+    left: 16rem;
+    visibility: hidden;
+    position: absolute;
+    top: 13.7%;
+    left: 14%;
+    z-index: 4;
+
+    &.active {
+        visibility: visible;
+        font-size: 2rem;
+        font-weight: 1000;
+        color: red;
     }
 }
